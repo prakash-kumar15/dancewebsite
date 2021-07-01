@@ -1,0 +1,27 @@
+extends loginbase.pug
+
+//- block script 
+//-     script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css 
+        include ../static/stylelogin.css 
+block content
+ div.loginsection
+    div#loginbox
+        img(src="/static/img/avtar.png" , alt="avtar", class="avtar")
+        h1 Login Here
+        form
+            p Username
+            <input type="text"class= "myinput" name="username" placeholder="Enter your Username">
+            p Password
+            <input type="password"class= "myinput" name="password" placeholder="Enter your Password">
+            div     
+                a(href='#') Forget Password?
+            div
+                a(href='#') Do not have Account?
+            button(class="btn")
+                |Login
+
+        

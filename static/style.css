@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 21px;
+    font-size: 21px;
+    margin-right: 60px;
+}
+#logo img{
+
+    height: 40px;
+    filter: invert(1);
+}
+#navbar{
+   background-color: rgb(10, 10, 10);
+   font-family: 'Noto Sans', sans-serif;
+   
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 15px 33px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#navbar li a:hover{
+    color:rgb(219, 50, 8);
+    
+}
+
+#intro{
+    background: center/cover no-repeat url(../static/bg.jpg);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#intro .welcome{
+    color: white;
+    font-size: 42px;
+}
+#intro h6{
+    color:#b1a4a4;
+    font-size: 35px;
+}
+
+#mission{
+    background-color: white;
+    height: 350px;
+}
+#mission h3{
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 11px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+.card{
+    border: 2px solid black;
+    display: inline-block;
+    width: 30%;
+    border-radius: 7px;
+    height: 243px;
+    margin: 9px 19px;
+    background-color: #efefef;
+    
+}
+.card h4{
+    text-align: center;
+    font-size: 24px;
+    padding: 3px;
+    color: #8a2b16;
+    font-family: 'Noto Sans', sans-serif;
+}
+.card p{
+    text-align: center; 
+    padding: 19px 2px;
+    font-size: 20px;
+}
+#sponser{
+    background-color: #c8d4c2;
+    height: 300px;
+    text-align: center;
+    
+}
+
+#sponser h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 11px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+#sponcers{
+    height: 120px;
+    margin: 10px auto;
+    max-width: 1000px;
+}
+.spimg{
+    height: 80%;
+    margin: 39px;
+}
+
+#navbar button{
+    padding: 0px 23px;
+    margin: 10px;
+    border: 2px solid white;
+    margin-left: 36%;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: black;
+    font-weight: bold;
+   
+}
+#navbar button:hover{
+   background-color: rgba(204, 41, 41, 0.986);
+}
+#navbar button a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+#navbar button a:hover{
+   color: white;
+    
+}
+
+
+#footer{
+    color: white;
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}

@@ -1,0 +1,36 @@
+extends base.pug
+
+//- block script 
+//-     script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css 
+
+block content
+  
+  section#intro 
+      div.welcome
+       h1 Welcome to Reckless Dance Accadamy
+      div.tag
+      h6 Level Up Your Dance
+  section#mission 
+     h3 Our Mission
+     div.card
+       h4 Dance Perfection
+       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ex ad exercitationem dicta minima cum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum quod repellendus voluptatibus enim nequ Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a rem eius! Architecto incidunt consequatur iusto harum? At, quisquam eum.
+     div.card
+       h4 Dance any way you can
+       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ex ad exercitationem dicta minima cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa fugit nostrum accusantium sapiente blanditiis inventore.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo nisi accusantium architecto veniam magni distinctio earum eos aut vero.
+     div.card
+       h4 Expert Teaching
+       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ex ad exercitationem dicta minima cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum expedita dignissimos quaerat perferendis tempore natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo nisi accusantium architecto veniam magni distinctio earum eos aut vero.
+  section#sponser 
+     h3 Sponsered By
+     div#sponcers
+       img(src="/static/img/m.png" , alt="Sponsers image", class="spimg")
+       img(src="/static/img/f.png" , alt="Sponsers image", class="spimg")
+       img(src="/static/img/l.png" , alt="Sponsers image", class="spimg")
+       img(src="/static/img/g.png" , alt="Sponsers image", class="spimg")
+       img(src="/static/img/y.png" , alt="Sponsers image", class="spimg")
+  

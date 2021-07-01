@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+h1{
+    text-align: center;
+    color: #000000;
+    padding: 46px;
+    font-size: 44px;
+    font-family: 'Staatliches', cursive;
+}
+
+.contactsection{
+    background: center/cover no-repeat url(../static/contact.jpg);
+    height: 650px;
+}
+.myform{
+ display: flex;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.myinput{
+    width: 35%;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    font-family: 'Staatliches', cursive;
+}
+.myinput:hover{
+    background-color: wheat;
+
+}
+.btn{
+    display: block;
+    width: 7%;
+    margin: 23px;
+    padding: 6px;
+    border-radius: 17px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+}
+.submit:hover{
+  color: blue;
+}
